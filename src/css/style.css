@@ -1,0 +1,14 @@
+header {
+  background-color: orangered;
+}
+
+/* ===============================  mobile first ================================= */
+
+.logo {
+  height: 20px;
+  width: 132px;
+}
+
+.subscribe {
+  background-color: yellow;
+}
