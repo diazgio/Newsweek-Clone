@@ -1,6 +1,7 @@
-header {
+.nav1 {
   background-color: #ff0500;
 }
+
 
 /* ===============================  mobile first ================================= */
 
@@ -10,5 +11,18 @@ header {
 }
 
 .subscribe {
+  color: black;
   background-color: yellow;
+  font: bold 13px/24px "Roboto Condensed",sans-serif;
+  border-radius: 11px;
+  margin: 0 10px;
 }
+
+.buttons a {
+  padding: 5px 5px;
+}
+
+.button-grey {
+  color: lightgray;
+}
+
