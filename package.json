@@ -1,0 +1,24 @@
+{
+  "name": "Newsweek-Clone",
+  "version": "1.0.0",
+  "description": "An clone from Newsweek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diazgio/Newsweek-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diazgio/Newsweek-Clone/issues"
+  },
+  "homepage": "https://github.com/diazgio/Newsweek-Clone#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
