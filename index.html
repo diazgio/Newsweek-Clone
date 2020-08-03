@@ -14,22 +14,28 @@
     <header>
       <nav class="navbar navbar-expand navbar-light container-fluid nav1">
         <a href="#" class="navbar-brand">Newsweek</a>
+        
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto buttons">
                 <li class="nav-item">
-                  <a href="#" class="button-grey"><i class="fa fa-user"></i></a>
+                  <a href="#" class="button-grey d-sm-block d-md-none"><i class="fa fa-user"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="button-grey d-sm-none d-md-block">LOGIN</a>
                 </li>
                 <li>
                     <a href="#" class="subscribe">SUBSCRIBE <i class="fas fa-angle-right"></i></a>
                 </li>
-                <li class="navbar-expand-lg">
-                    <a href="#" class="button-grey"><i class="fas fa-bars"></i></a>
-                </li>
+                <button class="navbar-toggler d-md-block d-lg-none
+                " type="button" data-toggle="collapse" data-target="#secondNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
             </ul>
           </div>
       </nav>
       <nav class="navbar navbar-expand-lg container-fluid nav2">
-        <div class="collapse navbar-collapse">
+        
+        <div class="collapse navbar-collapse" id="secondNavbar">
           <ul class="navbar-nav mr-auto buttons-menus">
               <li class="nav-item">
                 <a href="#">U.S</a>
