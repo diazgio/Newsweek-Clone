@@ -26,3 +26,14 @@
   color: lightgray;
 }
 
+.category {
+  position: absolute;
+	bottom: 0;
+	left: 0;
+  padding: 0;
+}
+
+.category a , .category a:hover {
+  color: #ff0500;
+  text-decoration: none;
+}
