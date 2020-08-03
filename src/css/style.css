@@ -37,3 +37,25 @@
   color: #ff0500;
   text-decoration: none;
 }
+
+
+.img-container img{
+  width: 100%;
+  height: auto;
+}
+
+.img-container a {
+  text-decoration: none;
+}
+
+.img-container h5 {
+  font-size: 14px;
+}
+
+.description h5{
+  font-size: 16px;
+}
+
+.description p {
+  font-size: 14px;
+}
