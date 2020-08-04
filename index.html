@@ -7,21 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/e4c4b9b250.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="icon" type="image/png" href="./src/img/n-logo-red.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand navbar-light container-fluid nav1">
-        <a href="#" class="navbar-brand">Newsweek</a>
-        
+        <a href="#" class="navbar-brand d-lg-none">
+          <img class="logo" src="./src/img/solo-logo.png" alt="logo">
+        </a>
         <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto date">
+              <li class="nav-item d-none d-lg-block">
+                <a href="#">Mon, Agus 03, 2020</a>
+              </li>
+            </ul>
+            <a href="#" class="navbar-brand d-none d-lg-block">
+              <img class="logo1" src="./src/img/solo-logo.png" alt="logo">
+            </a>
             <ul class="navbar-nav ml-auto buttons">
                 <li class="nav-item">
                   <a href="#" class="button-grey d-sm-block d-md-none"><i class="fa fa-user"></i></a>
                 </li>
                 <li>
-                  <a href="#" class="button-grey d-none d-md-block">LOGIN</a>
+                  <a href="#" class="loginbutton d-none d-md-block">LOGIN</a>
                 </li>
                 <li>
                     <a href="#" class="subscribe">SUBSCRIBE <i class="fas fa-angle-right"></i></a>
@@ -31,10 +41,10 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
             </ul>
+            
           </div>
       </nav>
-      <nav class="navbar navbar-expand-lg container-fluid nav2">
-        
+      <nav class="navbar navbar-expand-lg container-fluid nav2">  
         <div class="collapse navbar-collapse" id="secondNavbar">
           <ul class="navbar-nav mr-auto buttons-menus">
               <li class="nav-item">

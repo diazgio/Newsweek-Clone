@@ -16,9 +16,20 @@ body {
 
 /* ===============================  mobile first ================================= */
 
+.date a {
+  color: white;
+  text-decoration: none;
+}
+
+
 .logo {
-  height: 20px;
+  height: auto;
   width: 132px;
+}
+
+.logo1 {
+  width: 400px;
+  height: auto;
 }
 
 .subscribe {
@@ -31,6 +42,11 @@ body {
 
 .buttons a {
   padding: 5px 5px;
+}
+
+.loginbutton {
+  color: white;
+  font-weight: bold;
 }
 
 .button-grey {
