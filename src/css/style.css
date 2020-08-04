@@ -81,3 +81,18 @@
 .description p {
   font-size: 14px;
 }
+
+.debate {
+  width: 100%;
+}
+
+.debate-img {
+  width: 63px;
+  height: 63px;
+}
+
+.vs-div {
+  z-index: 1;
+  position: relative;
+  
+}
