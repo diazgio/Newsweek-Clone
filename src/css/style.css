@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 main {
   background-color: white;
 }
@@ -122,4 +126,12 @@ body {
 
 .tagger {
   font-size: 16px;
+}
+
+.pick-description {
+  font-size: 1.5rem;
+}
+
+.pick-article {
+  height: 45rem;
 }
