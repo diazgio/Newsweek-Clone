@@ -16,7 +16,7 @@ body {
   background-color: lightgrey !important;
 }
 
-.nav1 , .sign-up, .tagger  {
+.nav1 , .sign-up, .tagger, .option-subscribe  {
   background-color: #ff0500 !important;
 }
 
@@ -138,4 +138,31 @@ body {
 
 .magazine-img {
   height: 20rem;
+}
+
+
+.first-option {
+  background-color: #f4f5f6;
+}
+
+.option-title {
+  color: black;
+}
+
+.option-description {
+  font-size: 1.5rem;
+}
+
+.option-subscribe {
+  font-size: 1.5rem !important;
+}
+
+.option-img-1 {
+  position: relative;
+}
+
+.option-img-2 {
+  position: absolute;
+  top: 1.5rem;
+  left: 10rem;
 }
