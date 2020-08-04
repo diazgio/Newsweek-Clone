@@ -20,11 +20,11 @@ body {
   background-color: #ff0500 !important;
 }
 
-.nav2, .in-the-magazine {
+.nav2, .in-the-magazine, .user-option {
   background-color: white !important;
 }
 
-/* ===============================  mobile first ================================= */
+/* =============================  mobile first =============================== */
 
 .date a {
   color: white;
@@ -134,4 +134,8 @@ body {
 
 .pick-article {
   height: 45rem;
+}
+
+.magazine-img {
+  height: 20rem;
 }
