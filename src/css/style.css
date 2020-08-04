@@ -4,10 +4,21 @@
   box-sizing: border-box;
 }
 
-.nav1 {
-  background-color: #ff0500;
+main {
+  background-color: white;
 }
 
+body {
+  background-color: lightgrey !important;
+}
+
+.nav1 , .sign-up  {
+  background-color: #ff0500 !important;
+}
+
+.nav2 {
+  background-color: white !important;
+}
 
 /* ===============================  mobile first ================================= */
 
@@ -82,8 +93,8 @@
   font-size: 14px;
 }
 
-.debate {
-  width: 100%;
+.debate , .formulaire {
+  width: 100% !important;
 }
 
 .debate-img {
@@ -103,4 +114,8 @@
   top: -15px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.formulaire {
+  background-color: #f4f5f6;
 }
