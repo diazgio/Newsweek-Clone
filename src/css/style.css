@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  width: 100%;
-}
-
 .nav1 {
   background-color: #ff0500;
 }
