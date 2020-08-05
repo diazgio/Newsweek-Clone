@@ -31,6 +31,9 @@ body {
 .buttons-menus {
   font-size: 1.6rem;
 }
+.title-stories {
+  color: rgb(161, 153, 153);
+}
 
 /* =============================  mobile first =============================== */
 
@@ -73,9 +76,15 @@ body {
 
 .category {
   position: absolute;
-	bottom: 0;
+	bottom: 0.6rem;
 	left: 0;
   padding: 0;
+}
+
+.category span {
+  font-size: 1.4rem;
+  background-color: lightgrey;
+  padding: 0.7rem 0;
 }
 
 .category a , .category a:hover, .tipe, .tipe:hover {
@@ -181,7 +190,7 @@ body {
   color: black;
 }
 
-.mini-news a:hover {
+.mini-news a:hover, .title-stories-link:hover {
   color: black;
   text-decoration-color: #ff0500;
 }
@@ -209,3 +218,6 @@ body {
   color: #ff0500 !important;
 }
 
+.seconds-a:hover {
+  text-decoration: none;
+}
