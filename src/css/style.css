@@ -8,7 +8,7 @@ html {
   font-size: 62.5%;
 }
 
-main {
+main, footer {
   background-color: white;
 }
 
@@ -132,14 +132,6 @@ body {
   font-size: 1.5rem;
 }
 
-/* .pick-article {
-  height: 45rem;
-} */
-
-/* .magazine-img {
-  height: 20rem;
-} */
-
 .trump-header {
   font-size: 2rem;
   color: black;
@@ -174,4 +166,27 @@ body {
   position: absolute;
   top: 1.5rem;
   left: 10rem;
+}
+
+.mini-news a {
+  text-decoration: none;
+  color: black;
+}
+
+.mini-news a:hover {
+  color: black;
+  text-decoration-color: #ff0500;
+}
+
+.img-option img {
+  height: 100% !important;
+}
+
+.formcontainer {
+  height: 94%;
+}
+
+.logo-red img {
+  width: 24rem;
+  height: 3.5rem;
 }
