@@ -24,6 +24,14 @@ body {
   background-color: white !important;
 }
 
+.menus-a2 {
+  color: grey;
+}
+
+.buttons-menus {
+  font-size: 1.6rem;
+}
+
 /* =============================  mobile first =============================== */
 
 .date a {
@@ -196,3 +204,8 @@ body {
   font-size: 2.6rem;
   padding: 0 5px;
 }
+
+.menus-a:hover {
+  color: #ff0500 !important;
+}
+
