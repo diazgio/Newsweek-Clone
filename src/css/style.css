@@ -42,6 +42,9 @@ body {
   text-decoration: none;
 }
 
+.featured-story p {
+  font-size: 1.5rem;
+}
 
 .logo {
   height: auto;
@@ -76,7 +79,7 @@ body {
 
 .category {
   position: absolute;
-	bottom: 0.6rem;
+	bottom: 0.4rem;
 	left: 0;
   padding: 0;
 }
@@ -193,6 +196,14 @@ body {
 .mini-news a:hover, .title-stories-link:hover {
   color: black;
   text-decoration-color: #ff0500;
+}
+
+.mini-news h5 {
+  font-size: 1.7rem;
+}
+
+.mini-news p {
+  font-size: 1.5rem;
 }
 
 .img-option img {
