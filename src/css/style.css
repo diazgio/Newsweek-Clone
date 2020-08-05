@@ -132,14 +132,23 @@ body {
   font-size: 1.5rem;
 }
 
-.pick-article {
+/* .pick-article {
   height: 45rem;
-}
+} */
 
-.magazine-img {
+/* .magazine-img {
   height: 20rem;
+} */
+
+.trump-header {
+  font-size: 2rem;
+  color: black;
 }
 
+.trump-secondary-img {
+  width: 9rem;
+  height: 6.4rem;
+}
 
 .first-option {
   background-color: #f4f5f6;
