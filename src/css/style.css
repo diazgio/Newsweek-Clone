@@ -95,6 +95,10 @@ body {
   text-decoration: none;
 }
 
+.tipe {
+  font-size: 1.9rem;
+}
+
 
 .img-container img{
   width: 100%;
