@@ -2,7 +2,7 @@
 
 > This is the sixth collaborative project from Microverse program, It's a mock-up of a Newsweek web , it's built on HTML and CSS3 languages using frameworks in this case We use Bootstrap 4.
 
-![screenshot](./img/screen-shot.PNG)
+![screenshot](./src/img/screen-shot.png)
 
 
 ## 🔧 Built With
