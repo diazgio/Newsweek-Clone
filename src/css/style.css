@@ -10,15 +10,6 @@ html {
   font-size: 62.5%;
 }
 
-main,
-footer {
-  background-color: white;
-}
-
-body {
-  background-color: lightgrey !important;
-}
-
 /* ------------------------Header------------ */
 
 .nav1,
@@ -26,12 +17,6 @@ body {
 .tagger,
 .option-subscribe {
   background-color: #ff0500 !important;
-}
-
-.nav2,
-.in-the-magazine,
-.user-option {
-  background-color: white !important;
 }
 
 .menus-a2 {
@@ -133,11 +118,6 @@ body {
   font-size: 14px;
 }
 
-.debate,
-.formulaire {
-  width: 100% !important;
-}
-
 .debate-img {
   width: 63px;
   height: 63px;
@@ -159,6 +139,9 @@ body {
 
 .formulaire {
   background-color: #f4f5f6;
+  max-width: 30rem;
+  height: auto;
+  margin: auto;
 }
 
 /* --------------Secondarys sections------------------------------------- */
@@ -201,6 +184,10 @@ body {
   font-size: 1.5rem !important;
 }
 
+.img-option2 {
+  width: 170px;
+}
+
 .option-img-1 {
   position: relative;
 }
@@ -208,7 +195,7 @@ body {
 .option-img-2 {
   position: absolute;
   top: 1.5rem;
-  left: 10rem;
+  left: 50%;
 }
 
 .mini-news a {
@@ -234,7 +221,7 @@ body {
 }
 
 .formcontainer {
-  height: 94%;
+  height: calc(100% - 26px);
 }
 
 /* ----------------Footer section----------------------- */
