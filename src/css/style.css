@@ -1,0 +1,261 @@
+/* -------------------Common styles--------------------------- */
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* ------------------------Header------------ */
+
+.nav1,
+.sign-up,
+.tagger,
+.option-subscribe {
+  background-color: #ff0500 !important;
+}
+
+.menus-a2 {
+  color: grey;
+}
+
+.buttons-menus {
+  font-size: 1.6rem;
+}
+
+.title-stories {
+  color: rgb(161, 153, 153);
+}
+
+.date a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  height: auto;
+  width: 132px;
+}
+
+.logo1 {
+  width: 400px;
+  height: auto;
+}
+
+.subscribe {
+  color: black;
+  background-color: yellow;
+  font: bold 13px/24px "Roboto Condensed", sans-serif;
+  border-radius: 11px;
+  margin: 0 10px;
+}
+
+.buttons a {
+  padding: 5px 5px;
+}
+
+.loginbutton {
+  color: white;
+  font-weight: bold;
+}
+
+.button-grey {
+  color: lightgray;
+}
+
+/* ----------------------Main section----------------------- */
+
+.featured-story p {
+  font-size: 1.5rem;
+}
+
+.category {
+  position: absolute;
+  bottom: 0.4rem;
+  left: 0;
+  padding: 0;
+}
+
+.category span {
+  font-size: 1.4rem;
+  background-color: lightgrey;
+  padding: 0.7rem 0;
+}
+
+.category a {
+  color: #ff0500;
+  text-decoration: none;
+}
+
+.tipe {
+  font-size: 1.9rem;
+  color: #ff0500;
+  text-decoration: none;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+}
+
+.img-container a {
+  text-decoration: none;
+}
+
+.img-container h5 {
+  font-size: 14px;
+}
+
+.description h5 {
+  font-size: 16px;
+}
+
+.description p {
+  font-size: 14px;
+}
+
+.debate-img {
+  width: 63px;
+  height: 63px;
+}
+
+.vs-div {
+  position: relative;
+  width: 100%;
+  height: 3px;
+  z-index: 1;
+}
+
+.vs-div img {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.formulaire {
+  background-color: #f4f5f6;
+  max-width: 30rem;
+  height: auto;
+  margin: auto;
+}
+
+/* --------------Secondarys sections------------------------------------- */
+
+.tagger {
+  font-size: 16px;
+}
+
+.pick-description {
+  font-size: 1.5rem;
+}
+
+.top-story p {
+  font-size: 1.5rem;
+}
+
+.trump-header {
+  font-size: 2rem;
+  color: black;
+}
+
+.trump-secondary-img {
+  width: 9rem;
+  height: 6.4rem;
+}
+
+.first-option {
+  background-color: #f4f5f6;
+}
+
+.option-title {
+  color: black;
+}
+
+.option-description {
+  font-size: 1.5rem;
+}
+
+.option-subscribe {
+  font-size: 1.5rem !important;
+}
+
+.img-option2 {
+  width: 170px;
+}
+
+.option-img-1 {
+  position: relative;
+}
+
+.option-img-2 {
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+}
+
+.mini-news a {
+  text-decoration: none;
+  color: black;
+}
+
+.mini-news h5 {
+  font-size: 1.7rem;
+}
+
+.mini-news p {
+  font-size: 1.5rem;
+}
+
+.debate-title a {
+  color: black;
+  text-decoration: none;
+}
+
+.img-option img {
+  height: 100% !important;
+}
+
+.formcontainer {
+  height: calc(100% - 26px);
+}
+
+/* ----------------Footer section----------------------- */
+
+.logo-red img {
+  width: 24rem;
+  height: 3.5rem;
+}
+
+.social-medias i {
+  color: grey;
+  font-size: 2.6rem;
+  padding: 0 5px;
+}
+
+/* -------------------Hover sections------------------- */
+
+.category a:hover,
+.tipe:hover {
+  color: #ff0500;
+  text-decoration: none;
+}
+
+.mini-news a:hover,
+.title-stories-link:hover,
+.debate-title a:hover {
+  color: black;
+  text-decoration-color: #ff0500;
+}
+
+.menus-a:hover {
+  color: #ff0500 !important;
+}
+
+.seconds-a:hover {
+  text-decoration: none;
+}
