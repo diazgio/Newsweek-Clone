@@ -16,7 +16,7 @@
 
 ## 🔴 Live Demo
 
-[Live Demo Link](https://raw.githack.com/diazgio/Newsweek-Clone/tree/feature-branch/index.html)
+[Live Demo Link](https://diazgio.github.io/Newsweek-Clone/.)
 
 
 ## 🛠 Getting Started
